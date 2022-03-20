@@ -23,3 +23,10 @@ abstract class Aircraft {
     public landingLights: boolean;
     private aircraftType: string;
 }
+class commercialAircraft extends Aircraft {
+    private fuelLevel: string;
+    public incomingPassengers: number;
+    private foodStorage: number;
+    private baggageCompartment: number;
+    private passengerSeats: number;
+}
